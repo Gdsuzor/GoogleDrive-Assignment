@@ -4,17 +4,36 @@
     font-family: "Google Sans Display",Arial,Helvetica,sans-serif;
     list-style: none;
 }
+.xxx{
+    display: block;
+    height: 1px; 
+}
 .nav-bar{
     display: flex;
-    padding-left: 60px;
-    margin: 10px;
+    padding-left: 30px;
+    width: 100%;
+    position: fixed;
+    background-color: #f6f7fa;
+}
+
+.gdrive-logo img{
+    height: 35px;
+    margin-top: 10px;
+
+}
+.hamburger img{
+    height: 20px;
+    margin: 17px 20px 0px 0px;
 }
 .nav-bar h3{
-    margin-top: 18px;
-    font-size: 20px;    
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #5f6368;   
+    font-weight: 100; 
 }
 .section-one{
-    margin-top: 50px;
+    margin-top: 120px;
 }
 .section-one h1{
     font-size: 50px;
@@ -57,7 +76,7 @@
 .section-two{
     display: flex;
     padding-left: 465px;
-    margin: 30px;
+    margin: 50px;
 }
 .sec2-p{
     margin-right: 16px;
@@ -79,6 +98,10 @@
 .secThree{
     text-align: center;
     margin: 50px;
+}
+.section-three p{
+    color: #5f6368;
+    font-size: 18px;
 }
 .section-threeL img{
     height: 450px;
